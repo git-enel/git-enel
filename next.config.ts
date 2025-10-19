@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   basePath: "/git-enel",
-  assetPrefix: "/git-enel",
+  assetPrefix: "/git-enel/",
 };
 
 export default nextConfig;
