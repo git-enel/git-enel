@@ -1,4 +1,3 @@
-import { Icon } from "@tabler/icons-react";
 import {
   Mail,
   Github,
@@ -17,14 +16,7 @@ import {
   Zap,
 } from "lucide-react";
 
-export interface typeData {
-  icon: Icon;
-  label: string;
-  href: string;
-  color: string;
-}
-
-export const socialLinks: typeData[] = [
+export const socialLinks = [
   {
     icon: Mail,
     label: "Email",
