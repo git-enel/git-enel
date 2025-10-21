@@ -2,7 +2,6 @@
 
 import { Eye } from "lucide-react";
 import { useState } from "react";
-import Image from "next/image";
 import { Button } from "./ui/button";
 import { motion } from "motion/react";
 import { Badge } from "./ui/badge";
@@ -65,12 +64,10 @@ export function Projects() {
               className="glass rounded-xl overflow-hidden group flex flex-col"
             >
               <div className="relative h-48 overflow-hidden">
-                <Image
-                  src={project.image}
+                <img
+                  src={`/assets/${project.image.replace(/^\/?assets\//, "")}`}
                   alt={project.title}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-110"
-                  sizes="(max-width: 768px) 100vw, 33vw"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#13131a] via-transparent opacity-60" />
               </div>
