@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
+import Image from "next/image";
 
 type Project = (typeof projects)[0];
 
@@ -90,19 +91,15 @@ export function ProjectModal({
                       transition={{ duration: 0.3 }}
                       className="w-full h-full"
                     >
-                      <img
-                        src={
-                          project.gallery[currentImageIndex].startsWith(
-                            "/assets/"
-                          )
-                            ? project.gallery[currentImageIndex]
-                            : `/assets/${project.gallery[currentImageIndex]}`
-                        }
+                      <Image
+                        src={project.gallery[currentImageIndex]}
                         alt={`${project.title} - Image ${
                           currentImageIndex + 1
                         }`}
-                        className="w-full h-full object-contain"
-                        loading="lazy"
+                        fill
+                        className="object-contain"
+                        sizes="(max-width: 768px) 100vw, 80vw"
+                        priority
                       />
                     </motion.div>
                   </AnimatePresence>
