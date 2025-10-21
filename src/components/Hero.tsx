@@ -1,7 +1,7 @@
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { motion } from "motion/react";
 import { Button } from "./ui/button";
-import Image from "next/image";
+// import Image from "next/image";
 import { socialLinks } from "./data";
 
 export function Hero() {
@@ -27,7 +27,7 @@ export function Hero() {
           >
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#00d9ff] to-[#b24bf3] blur-xl opacity-60 animate-pulse" />
             <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-[#00d9ff] shadow-[0_0_30px_rgba(0,217,255,0.5)]">
-              <Image
+              {/* <Image
                 src="/assets/profile.png"
                 alt="Aldrich Zebua - Software Developer"
                 width={400}
@@ -35,6 +35,11 @@ export function Hero() {
                 priority
                 className="w-full h-full object-cover rounded-full"
                 sizes="(max-width: 768px) 160px, 400px"
+              /> */}
+              <img
+                src="/git-enel/assets/profile.png"
+                alt="Aldrich Zebua - Software Developer"
+                className="w-full h-full object-cover rounded-full"
               />
             </div>
           </motion.div>
