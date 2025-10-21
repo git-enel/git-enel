@@ -26,8 +26,7 @@ export function Experience() {
 
         <div className="max-w-5xl mx-auto">
           <div className="relative">
-            <div className="hidden md:block absolute left-8 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-[#00d9ff] via-[#b24bf3] to-[#00d9ff] opacity-30" />
-
+            <div className="hidden md:block absolute left-8 md:left-1/2 top-[-10%] bottom-[-10%] w-[3px] bg-gradient-to-b from-[#00d9ff] via-[#b24bf3] to-[#00d9ff] opacity-50 rounded-full" />
             {experiences.map((exp, index) => {
               const Icon = exp.type === "work" ? Briefcase : GraduationCap;
               const isEven = index % 2 === 0;

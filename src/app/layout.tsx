@@ -16,7 +16,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Aldrich Deril Christian Zebua",
   description: "Portfolio Website of Aldrich Deril Christian Zebua",
-  icons: "/my_logo_black.png",
+  icons: {
+    icon: "/assets/my_logo_black.png",
+    apple: "/assets/my_logo_black.png",
+    shortcut: "/assets/my_logo_black.png",
+  },
 };
 
 export default function RootLayout({

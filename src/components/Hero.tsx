@@ -27,15 +27,6 @@ export function Hero() {
           >
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#00d9ff] to-[#b24bf3] blur-xl opacity-60 animate-pulse" />
             <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-[#00d9ff] shadow-[0_0_30px_rgba(0,217,255,0.5)]">
-              {/* <Image
-                src="/assets/profile.png"
-                alt="Aldrich Zebua - Software Developer"
-                width={400}
-                height={400}
-                priority
-                className="w-full h-full object-cover rounded-full"
-                sizes="(max-width: 768px) 160px, 400px"
-              /> */}
               <img
                 src="/git-enel/assets/profile.png"
                 alt="Aldrich Zebua - Software Developer"
@@ -110,7 +101,7 @@ export function Hero() {
             <Button
               size="lg"
               variant="outline"
-              className="border-[#b24bf3] text-[#b24bf3] hover:bg-[#b24bf3] hover:text-white hover:shadow-[0_0_30px_rgba(178,75,243,0.5)] transition-all duration-300"
+              className="border-[#b24bf3] text-[#b24bf3] hover:bg-[#b24bf3] hover:text-[#c274f3] hover:shadow-[0_0_30px_rgba(178,75,243,0.5)] transition-all duration-300"
               onClick={() =>
                 document
                   .getElementById("contact")
