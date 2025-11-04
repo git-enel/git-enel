@@ -28,7 +28,7 @@ export function Hero() {
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#00d9ff] to-[#b24bf3] blur-xl opacity-60 animate-pulse" />
             <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-[#00d9ff] shadow-[0_0_30px_rgba(0,217,255,0.5)]">
               <img
-                src="/assets/profile.png"
+                src="assets/profile.png"
                 alt="Aldrich Zebua - Software Developer"
                 className="w-full h-full object-cover rounded-full"
               />
