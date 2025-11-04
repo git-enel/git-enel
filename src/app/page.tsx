@@ -10,6 +10,7 @@ import { Contact } from "@/components/ContactMe";
 import { Footer } from "@/components/Footer";
 import { ChevronUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import DownloadCV from "@/components/CVDownload";
 
 export default function App() {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -67,6 +68,7 @@ export default function App() {
           <ChevronUp className="w-6 h-6" />
         </Button>
       </motion.div>
+      <DownloadCV/>
     </div>
   );
 }

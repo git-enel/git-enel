@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   title: "Aldrich Deril Christian Zebua",
   description: "Portfolio Website of Aldrich Deril Christian Zebua",
   icons: {
-    icon: "/git-enel/assets/my_logo_black.png",
-    apple: "/git-enel/assets/my_logo_black.png",
-    shortcut: "/git-enel/assets/my_logo_black.png",
+    icon: "assets/my_logo_black.png",
+    apple: "assets/my_logo_black.png",
+    shortcut: "assets/my_logo_black.png",
   },
 };
 
