@@ -85,7 +85,6 @@ export const projects = [
       "assets/Screenshot%202025-10-01%20201325.png",
       "assets/Screenshot%202025-10-01%20201439.png",
       "assets/Screenshot%202025-10-01%20201512.png",
-      "assets/Screenshot%202025-10-01%20201609.png",
     ],
   },
   {
@@ -97,14 +96,9 @@ export const projects = [
     gallery: [
       "assets/Screenshot%202025-10-01%20203002.png",
       "assets/Screenshot%202025-10-01%20203011.png",
-      "assets/Screenshot%202025-10-01%20203031.png",
-      "assets/Screenshot%202025-10-01%20203047.png",
       "assets/Screenshot%202025-10-01%20203102.png",
       "assets/Screenshot%202025-10-01%20203142.png",
-      "assets/Screenshot%202025-10-01%20203223.png",
-      "assets/Screenshot%202025-10-01%20203235.png",
       "assets/Screenshot%202025-10-01%20203253.png",
-      "assets/Screenshot%202025-10-01%20203309.png",
     ],
   },
 ];
