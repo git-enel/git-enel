@@ -1,4 +1,6 @@
-import { useState } from "react";
+"use client";
+
+import { useState, useEffect } from "react";
 import { projects } from "./data";
 import { AnimatePresence, motion } from "motion/react";
 import { Badge } from "./ui/badge";
@@ -18,6 +20,16 @@ export function ProjectModal({
   onClose: () => void;
 }) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    if (!isOpen) {
+      setCurrentImageIndex(0);
+    }
+  }, [isOpen]);
+
+  useEffect(() => {
+    setCurrentImageIndex(0);
+  }, [project]);
 
   if (!project) return null;
 
