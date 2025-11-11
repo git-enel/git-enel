@@ -109,11 +109,17 @@ export function Contact() {
               </div>
 
               <Button
-                type="submit"
-                className="w-full bg-gradient-to-r from-[#00d9ff] to-[#0099cc] hover:shadow-[0_0_30px_rgba(0,217,255,0.5)] transition-all duration-300 text-black group"
+                type="button"
+                className="w-full bg-gradient-to-r from-[#00d9ff] to-[#0099cc] opacity-60 cursor-not-allowed text-black transition-all duration-300 relative"
               >
                 Send Message
-                <Send className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                <Send className="ml-2 w-4 h-4" />
+                <div
+                  className="absolute inset-0"
+                  onClick={() =>
+                    alert("This feature is currently unavailable.")
+                  }
+                ></div>
               </Button>
             </form>
           </motion.div>

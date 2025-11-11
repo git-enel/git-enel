@@ -32,7 +32,7 @@ export const socialLinks = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/aldrich-deril-christian-zebua-690692330/",
+    href: "https://www.linkedin.com/in/aldrich-zebua/",
     color: "#00d9ff",
   },
   {
