@@ -11,9 +11,9 @@ export default function DownloadCV() {
 
   const cvLinks = {
     indonesia:
-      "https://drive.google.com/uc?export=download&id=1DtZDc2K6-UgmqYJoG1MaZTXlcSacHvRv",
+      "https://drive.google.com/uc?export=download&id=18n0T7CMSN7jsCbWrXPqOUX6I79rGecaR",
     english:
-      "https://drive.google.com/uc?export=download&id=17PhjthzLgwvsoGgupS7ki78vAB6L4Irg",
+      "https://drive.google.com/uc?export=download&id=14st14TLWfd3LKwIO3TK3buCIyTs0ceya",
   };
 
   const handleDownload = (lang: "indonesia" | "english") => {
